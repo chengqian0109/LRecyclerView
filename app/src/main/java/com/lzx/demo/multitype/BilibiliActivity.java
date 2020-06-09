@@ -2,9 +2,9 @@ package com.lzx.demo.multitype;
 
 import android.os.Bundle;
 import android.os.Handler;
-import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.GridLayoutManager;
-import android.support.v7.widget.Toolbar;
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.recyclerview.widget.GridLayoutManager;
+import androidx.appcompat.widget.Toolbar;
 import android.view.MenuItem;
 
 import com.github.jdsjlzx.interfaces.OnRefreshListener;

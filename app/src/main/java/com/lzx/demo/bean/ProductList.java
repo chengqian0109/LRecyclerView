@@ -16,7 +16,7 @@
 
 package com.lzx.demo.bean;
 
-import android.support.annotation.NonNull;
+import androidx.annotation.NonNull;
 
 import com.lzx.demo.type.TypeFactory;
 

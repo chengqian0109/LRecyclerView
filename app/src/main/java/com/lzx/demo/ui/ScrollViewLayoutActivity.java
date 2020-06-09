@@ -2,7 +2,7 @@ package com.lzx.demo.ui;
 
 import android.os.Bundle;
 import android.os.Handler;
-import android.support.v7.app.AppCompatActivity;
+import androidx.appcompat.app.AppCompatActivity;
 
 import com.github.jdsjlzx.recyclerview.ProgressStyle;
 import com.lzx.demo.R;

@@ -1,6 +1,6 @@
 package com.lzx.demo.holder;
 
-import android.support.v7.widget.RecyclerView;
+import androidx.recyclerview.widget.RecyclerView;
 import android.view.View;
 
 import com.lzx.demo.bean.Visitable;

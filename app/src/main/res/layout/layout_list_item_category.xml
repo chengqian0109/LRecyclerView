@@ -13,7 +13,7 @@
         android:layout_height="@dimen/dp_22"
         android:src="@mipmap/ic_launcher"/>
 
-    <android.support.v4.widget.Space
+    <androidx.legacy.widget.Space
         android:layout_width="@dimen/dp_6"
         android:layout_height="0dp"/>
 

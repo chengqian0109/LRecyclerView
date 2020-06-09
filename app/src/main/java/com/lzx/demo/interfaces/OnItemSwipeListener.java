@@ -1,7 +1,7 @@
 package com.lzx.demo.interfaces;
 
 import android.graphics.Canvas;
-import android.support.v7.widget.RecyclerView;
+import androidx.recyclerview.widget.RecyclerView;
 
 public interface OnItemSwipeListener {
 

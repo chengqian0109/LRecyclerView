@@ -3,11 +3,11 @@ apply plugin: 'com.github.dcendents.android-maven'
 
 
 android {
-    compileSdkVersion 27
+    compileSdkVersion 29
 
     defaultConfig {
         minSdkVersion 14
-        targetSdkVersion 27
+        targetSdkVersion 29
         versionCode 1
         versionName "1.0"
     }
@@ -21,9 +21,9 @@ android {
 
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
-    implementation 'com.android.support:appcompat-v7:27.1.1'
-    implementation 'com.android.support:recyclerview-v7:27.1.1'
-    implementation 'com.android.support:design:27.1.1'
+    compileOnly 'androidx.appcompat:appcompat:1.1.0'
+    compileOnly 'androidx.recyclerview:recyclerview:1.1.0'
+    compileOnly 'com.google.android.material:material:1.1.0'
 }
 
 
@@ -35,7 +35,7 @@ tasks.withType(JavaCompile) {
 // 打包源码
 task sourcesJar(type: Jar) {
     from android.sourceSets.main.java.srcDirs
-    classifier = 'sources'
+    archiveClassifier = 'sources'
 }
 
 task javadoc(type: Javadoc) {
@@ -47,7 +47,7 @@ task javadoc(type: Javadoc) {
 
 // 制作文档(Javadoc)
 task javadocJar(type: Jar, dependsOn: javadoc) {
-    classifier = 'javadoc'
+    archiveClassifier = 'javadoc'
     from javadoc.destinationDir
 }
 

@@ -1,13 +1,11 @@
 package com.lzx.demo.view;
 
 import android.content.Context;
-import android.support.design.widget.AppBarLayout;
-import android.support.design.widget.CoordinatorLayout;
-import android.support.v4.content.ContextCompat;
-import android.support.v7.widget.RecyclerView;
+import com.google.android.material.appbar.AppBarLayout;
+import androidx.coordinatorlayout.widget.CoordinatorLayout;
+import androidx.core.content.ContextCompat;
+
 import android.util.AttributeSet;
-import android.util.Log;
-import android.view.LayoutInflater;
 import android.view.MotionEvent;
 import android.view.View;
 import android.view.ViewGroup;
@@ -19,7 +17,6 @@ import android.widget.ScrollView;
 import com.github.jdsjlzx.interfaces.IRefreshHeader;
 import com.github.jdsjlzx.recyclerview.AppBarStateChangeListener;
 import com.github.jdsjlzx.view.ArrowRefreshHeader;
-import com.lzx.demo.R;
 
 
 /**
